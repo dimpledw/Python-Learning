@@ -35,4 +35,38 @@ bmi = weight/(height**2)
 
 print(bmi)
 
-# Number Manipulation
+# Number Manipulation and F strings in Python
+
+# Since bmi is quite a large number, we can round it off using round function 
+
+print(round(bmi))
+
+print(round(bmi, 2))
+
+score = 0
+score += 1 # When user scores a point
+print(score)
+
+# F-string - With f-string we don't have to type cast the data type
+
+score = 0
+height = 5.8
+is_winning = True
+
+print(f"Your score is = {score} and {height}. You are winning {is_winning}")
+
+# Coding Exercise 4
+
+# What will be the output of this? 
+
+print(6 + 4 / 2 - (1 * 2)) # Output will be 6.0
+
+# Coding Exercise 5
+
+# What is the data type of the result of the variable a in the following line of code:
+
+a = int("5") / int(2.7)
+print(type(a))
+
+
+
