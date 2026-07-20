@@ -75,6 +75,11 @@ elif bmi >=18.5 and bmi < 25:
 else:
     print("You are overweight")
 
+# Logical Operators - And, or, Not
+# And - Both conditions must be true
+# Or - Either condition should be true
+
+
 
 
 

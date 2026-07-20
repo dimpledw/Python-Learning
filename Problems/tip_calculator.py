@@ -1,7 +1,8 @@
-# Tip Calculator
-
-# Write a program to create tip Calculator. Ask user the total bill, how much tip they like to give? 10, 12 or 15? 
-# and how many people to split the bill? Then at the end print each person's share
+'''
+Tip Calculator
+Write a program to create tip Calculator. Ask user the total bill, how much tip they like to give? 10, 12 or 15? 
+and how many people to split the bill? Then at the end print each person's share 
+'''
 
 print("Welcome to the tip Calculator")
 total_bill = int(input("What was the Total Bill?\n"))
