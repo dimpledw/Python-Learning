@@ -1,3 +1,12 @@
+'''
+Write a program to work out their final bill based on user's order. Get user's preferences and then add up the
+total for their order and tell them how much they have to pay
+Small Pizza : $15
+Medium Pizza : $20
+Large Pizza : $25
+Add Pepperoni for small pizza (Y or N): +$2
+'''
+
 print("Welcome to Pizza Shop!")
 pizza_size = input("Which pizza size you want? Small, Medium or Large\n")
 bill = 0
