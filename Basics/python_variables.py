@@ -1,5 +1,7 @@
 '''
 A variable is a name we create to store a value, so we can use it later in our code.
+Variables make programs dynamic.
+Variables are stored in Memory.
 '''
 
 name = input("What is your name? ")
@@ -52,3 +54,25 @@ makes our code more readable.
 Try to avoid giving function name as variable name. It will create confusion.
 Name Error is probably because you misspell or mistype the variable name.
 '''
+
+name = "Alexa"
+language = "Python"
+print("My name is", name)
+print(name, "is learning", language)
+print(name, "wants to become", language, "expert")
+
+'''
+Coding Exercise - Print the following three lines. Add a variable to make it dynamic
+info@pythonlearning.com
+support@pythonlearning.com
+www.pythonlearning.com
+'''
+
+variable = "pythonlearning.com"
+
+print("info@"+variable)
+print("support@"+variable)
+print("www."+variable)
+
+# Another Way
+print("info@"+variable, "\n" "support@"+variable, "\n" "www."+variable)
