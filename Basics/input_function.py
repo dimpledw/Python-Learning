@@ -5,3 +5,4 @@ function to get something from the user. Same with chatgpt
 '''
 
 print("Hello " + input("What is your name? ") + "!")
+

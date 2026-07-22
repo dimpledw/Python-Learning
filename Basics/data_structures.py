@@ -19,8 +19,9 @@ print(states_of_canada) # This will print ['Alberta','Nova Scotia','British Colu
 
 import random
 friends_list = ["April", "June", "Wednesday", "Alexa", "Siri"]
-# random_friends = random.choice(friends_list)
-# print(f"Person who will pay the bill is: {random_friends}")
+random_friends = random.choice(friends_list)
+print(f"Person who will pay the bill is: {random_friends}")
+
 
 random_index = random.randint(0,4)
 print(random_index)
