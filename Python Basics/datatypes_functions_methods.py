@@ -45,7 +45,7 @@ print(street_name[4] + street_name[7]) # Output will be yo
 Type Error, Type Checking and Type Conversion
 '''
 
-#print(len(123)) # This will give a type error as len doesn't work with integer
+print(len(123)) # This will give a type error as len doesn't work with integer
 
 # In order it to work
 print(len("123")) # len work with certain datatypes

@@ -71,11 +71,13 @@ print(stamp.split("-")) # Output will be ['2026', '09', '20']
 csv_file = "1234,Maxi,USA,1970-10-05,F"
 print(csv_file.split(","))
 
-# String Repetation
+# String Repetition - Use Case (You can style your logs with string repetition)
 
 print("ha" * 3)
 print("-" * 10)
 print("-" * 10)
+print("=" * 15)
+print("=" * 15)
 
 
 
