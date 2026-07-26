@@ -55,7 +55,7 @@ print(4 == 4 or 2>4 and 5 < 6)
 print((4 == 4 or 2>4) and 5 < 6)         # Here or will execute first as it in parenthesis
 print((4 != 4 or 2>4) and 5 < 6)         # This will print False
 
-# Allow access only if the user is logged in or they are a guest, but they must not be banned
+# Allow access only if the user is logged in or they are a guest, but they must not be banned.
 
 is_logged_in = True
 is_guest = False
@@ -67,7 +67,7 @@ is_logged_in = True
 is_guest = False
 is_banned = True
 
-print((is_logged_in or is_guest )and not is_banned)
+print((is_logged_in or is_guest) and not is_banned)
 
 
 
