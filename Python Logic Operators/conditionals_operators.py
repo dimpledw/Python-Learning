@@ -1,4 +1,7 @@
 '''
+Control Flow - It is the logic you write to control how your code runs.
+Conditional Statements - If the block of code is true, do this, if block of code is False, 
+do that (if else elif). This will help us to make decisions
 Conditional - If/Else
 If condition:
     do this
