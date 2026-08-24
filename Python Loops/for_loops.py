@@ -79,3 +79,12 @@ for number in numbers:
 # Attempt - 2
 for number in range(1,7):
     print(f"{'*' * number}")
+
+
+
+numbers = [10,203,203,287,34,283,28937,3726]
+result = []
+for num in numbers:
+    if num not in result:
+        result.append(num)
+print(result)
