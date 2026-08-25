@@ -122,7 +122,7 @@ else:
 
 files = ['data1.csv', 'data2.csv', 'report.pdf', 'data3.csv', 'data4.txt']
 for file in files:
-    if not '.csv' in file:
+    if not file.endswith('.csv'):
         print(f"{file} is not a csv")
         break
 else:
